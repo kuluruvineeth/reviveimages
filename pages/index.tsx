@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Face Image Reviver</title>
       </Head>
@@ -36,7 +36,7 @@ export default function Home() {
             Learn how it&apos;s built
           </a>
           <Link
-            href=""
+            href="/revive"
             className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
           >
             Revive your Images
